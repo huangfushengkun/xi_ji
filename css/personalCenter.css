@@ -1,0 +1,379 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+#container{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#container .inner-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+#container .inner-wrap .main{
+    margin: 30px auto;
+}
+#container .inner-wrap .main .page-aside{
+    width: 125px;
+    float: left;
+}
+#container .inner-wrap .main .page-aside .userImg{
+    width: 125px;
+    height: 235px;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #aaa;
+}
+#container .inner-wrap .main .page-aside .userImg a div.img{
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #000;
+    border-radius: 100%;
+}
+#container .inner-wrap .main .userImg .user{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* margin: 15px 0; */
+    color: #000;
+    margin: 0 auto;
+}
+#container .inner-wrap .main .page-aside .userImg .user a{
+    color: #000;
+}
+#container .inner-wrap .main .page-aside .userImg a div#sign_in_display{
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    margin: 0 auto;
+    border-radius: 15%;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid orangered;
+    background-color: orangered;
+}
+#container .inner-wrap .main .page-aside .userImg p.sign-txt{
+    text-align: center;
+    margin: 15px auto;
+    font-size: 13px;
+    color: #aaa;
+}
+#member_menu{
+    width: 125px;
+    padding: 0 20px;
+    background-color: #fff;
+}
+#member_menu .member-menu-mod ul.member-menu-list li:hover a{
+    color: red;
+}
+#member_menu .member-menu-mod ul.member-menu-list li{
+    height: 55px;
+    line-height: 55px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#member_menu .member-menu-mod ul.member-menu-list li a{
+    font-size: 16px;
+    color: #000;
+    margin-left: 30px;
+}
+#member_menu .member-menu-mod ul li:nth-child(1){
+    background: url(../images/personalCenter/01.png) no-repeat 0 0;
+}
+#member_menu .member-menu-mod ul li:nth-child(1):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -55px;
+}
+#member_menu .member-menu-mod ul li:nth-child(2){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -110px;
+}
+#member_menu .member-menu-mod ul li:nth-child(2):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -165px;
+}
+#member_menu .member-menu-mod ul li:nth-child(3){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -1100px;
+}
+#member_menu .member-menu-mod ul li:nth-child(3):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -1155px;
+}
+#member_menu .member-menu-mod ul li:nth-child(4){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -660px;
+}
+#member_menu .member-menu-mod ul li:nth-child(4):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -715px;
+}
+#member_menu .member-menu-mod ul li:nth-child(5){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -990px;
+}
+#member_menu .member-menu-mod ul li:nth-child(5):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -1045px;
+}
+#member_menu .member-menu-mod ul li:nth-child(6){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -770px;
+}
+#member_menu .member-menu-mod ul li:nth-child(6):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -825px;
+}
+#member_menu .member-menu-mod ul li:nth-child(7){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -220px;
+}
+#member_menu .member-menu-mod ul li:nth-child(7):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -275px;
+}
+#member_menu .member-menu-mod ul li:nth-child(8){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -330px;
+}
+#member_menu .member-menu-mod ul li:nth-child(8):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -385px;
+}
+#member_menu .member-menu-mod ul li:nth-child(9){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -440px;
+}
+#member_menu .member-menu-mod ul li:nth-child(9):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -495px;
+}
+#member_menu .member-menu-mod ul li:nth-child(10){
+    background: url(../images/personalCenter/01.png) no-repeat 0 -550px;
+}
+#member_menu .member-menu-mod ul li:nth-child(10):hover{
+    background: url(../images/personalCenter/01.png) no-repeat 0 -605px;
+}
+#container .inner-wrap .main .page-article{
+    float: right;
+    width: 1023px;
+    height: 157px;
+    background-color: #fff;
+}
+#container .inner-wrap .main .page-article .member-welcome{
+    height: 137px;
+    padding: 10px 0;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li{
+    float: left;
+    margin-top: 30px;
+    width: 160px;
+    height: 77px;
+    text-align: center;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-welcome-tips{
+    width: 160px;
+    height: 77px;
+    text-align: center;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-welcome-tips p{
+    line-height: 2.0;
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+    margin-left: 15px;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-welcome-tips span{
+    font-size: 14px;
+    width: 90px;
+    display: inline-block;
+    overflow-x : hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-welcome-tips a{
+    color: orangered;
+    font-size: 14px;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-member-count{
+    width: 160px;
+    height: 77px;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    border-right: 1px solid #aaa;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-member-count i{
+    line-height: 3.5;
+    font-size: 14px;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li div.xj-member-count a{
+    color: orangered;
+    font-size: 14px;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li a span{
+    width: 42px;
+    height: 42px;
+    display:inline-block;
+    margin-top: 10px;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li a p{
+    font-size: 16px;
+    color: #000;
+    width: 100px;
+    margin: 0 auto;
+}
+#container .inner-wrap .main .page-article .member-welcome ul li a p i{
+    color: orangered;
+    font-size: 16px;
+}
+/* 结束 */
+
+/* 最近的订单 */
+/* 开始 */
+#container .member-orders{
+    width: 1023px;
+    height: 590px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#container .member-orders .memder-mod-title h1{
+    font-size: 18px;
+    padding: 20px;
+}
+
+#container .member-orders ul.xj-orderbox{
+    float: right;
+    position: relative;
+}
+#container .member-orders ul.xj-orderbox li{
+    height: 25px;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* 下单时间 */
+/* 开始 */
+#container .xj-orderbox .ordertime{
+    width: 120px;
+}
+#container .xj-orderbox .ordertime .xj-order-time{
+    width: 95px;
+}
+#container .xj-orderbox .ordertime .xj-order-time .xj-order-statusmenu{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 2;
+}
+#container .xj-orderbox .ordertime .xj-order-time .xj-order-statusmenu span{
+    display: block;
+    background: url(../images/personalCenter/02.png) 88px -3px no-repeat;
+    color: #000;
+    font-size: 14px;
+}
+#container .xj-orderbox .ordertime .xj-order-time .xj-order-statusmenu span:hover{
+    background: url(../images/personalCenter/02.png) 88px -28px no-repeat;
+    display: block;
+}
+#container .xj-orderbox .ordertime .xj-order-time .xj-order-statusmenu ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100px;
+    height: 120px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-sizing: border-box;
+    overflow: none;
+    display: none;
+}
+#container .xj-orderbox .ordertime .xj-order-time .xj-order-statusmenu ul li{
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+}
+#container .xj-orderbox .ordertime .xj-order-time .xj-order-statusmenu ul li a{
+    color: #000;
+    font-size: 14px;
+    float: left;
+    padding: 5px 5px;
+}
+
+/* 下单时间结束 */
+#container .xj-orderbox .goodsname{
+    width: 178px;
+    font-size: 14px;
+}
+#container .xj-orderbox .price{
+    width: 110px;
+    font-size: 14px;
+}
+#container .xj-orderbox .num{
+    width: 45px;
+    font-size: 14px;
+}
+#container .xj-orderbox .pay{
+    width: 91px;
+    font-size: 14px;
+}
+#container .xj-orderbox .money{
+    width: 146px;
+    font-size: 14px;
+}
+
+/* 订单状态 */
+/* 开始 */
+#container .xj-orderbox .status{
+    width: 110px;
+    font-size: 14px;
+}
+#container .xj-orderbox .status .xj-order-time{
+    width: 95px;
+}
+#container .xj-orderbox .status .xj-order-time .xj-order-statusmenu{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 10;
+}
+#container .xj-orderbox .status .xj-order-time .xj-order-statusmenu span{
+    display: block;
+    background: url(../images/personalCenter/02.png) 88px -3px no-repeat;
+    color: #000;
+    font-size: 14px;
+}
+#container .xj-orderbox .status .xj-order-time .xj-order-statusmenu span:hover{
+    background: url(../images/personalCenter/02.png) 88px -28px no-repeat;
+    display: block;
+}
+#container .xj-orderbox .status .xj-order-time .xj-order-statusmenu ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100px;
+    height: 180px;
+    padding: 8px 0 8px 15px;
+    border: 1px solid #ccc;
+    display: none;
+}
+#container .xj-orderbox .status .xj-order-time .xj-order-statusmenu ul li{
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+}
+#container .xj-orderbox .status .xj-order-time .xj-order-statusmenu ul li a{
+    color: #000;
+    font-size: 14px;
+    float: left;
+    padding: 5px 5px;
+}
+/* 订单状态结束 */
+#container .xj-orderbox .operation{
+    width: 140px;
+    font-size: 14px;
+}
+/* 暂无订单开始 */
+.member-orders .no-information {
+    margin-top: 10px;
+    padding-top: 160px;
+    height: 168px;
+    background: #ffffff url(../images/personalCenter/03.png) center bottom no-repeat;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    vertical-align: top;
+}
+/* 暂无订单结束 */

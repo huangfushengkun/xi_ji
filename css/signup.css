@@ -1,0 +1,276 @@
+html,body{
+    background-color: #f5f5f5;
+}
+.passport-empty-inner{
+    background: url(../images/signup/passport_bg_161124\ \(1\).png) no-repeat 0 0;
+    width: 542px;
+    height: 752px;
+    margin: 80px auto 20px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+}
+.passport-empty-inner .signup-article{
+    width: 350px;
+    float: none;
+    padding: 90px 0 0 95px;
+}
+.passport-empty-inner .signup-article .userSelect{
+    height: 49px;
+    width: 350px;;
+    border: 1px solid #a3a3a3;
+    margin-bottom: 20px;
+    position: relative;
+}
+.passport-empty-inner .signup-article .userSelect .countryLabel{
+    position: absolute;
+    left: 13px;
+    top: -10px;
+    color: #a3a3a3;
+    font-size: 14px;
+    background: #fff;
+    padding: 0 10px;
+}
+/*手机快捷登陆错误提示--- */
+.passport-empty-inner .signup-article .quicklogin .user-err{
+    margin-left: 96px;
+    font-size: 14px;
+    color: #EB5A41;
+    display: none;
+}
+.passport-empty-inner .signup-article .quicklogin .send-err{
+    margin-left: 96px;
+    font-size: 14px;
+    color: #EB5A41;
+    display: none;
+}
+.passport-empty-inner .signup-article .quicklogin .pwd-err{
+    margin-left: 96px;
+    font-size: 16px;
+    color: #f00;
+    display: none;
+}
+/*---手机快捷登陆错误提示 */
+/* 注册  样式 */
+.passport-empty-inner .signup-article .quicklogin{
+    width: 353px;
+    height: 420px;
+    margin-top: 35px;
+    /* display: none; */
+}
+.passport-empty-inner .signup-article .quicklogin .form-item{
+    position: relative;
+    margin-bottom: 30px;
+    height: 50px;
+} 
+.passport-empty-inner .signup-article .quicklogin .form-item .form-label{
+    font-size: 15px;
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    color:#a3a3a3;
+    background: #fff;
+   -webkit-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+} 
+.passport-empty-inner .signup-article .quicklogin .form-item .focus{
+    color: #EB5A41;
+    top: -8px;
+}
+.passport-empty-inner .signup-article .form-item .form-act{
+    display: block;
+    /* width: 350px; */
+    height: 49px;
+}
+.passport-empty-inner .signup-article .quicklogin .form-act.btn-caution{
+    margin: 0 auto;
+}
+.passport-empty-inner .signup-article .quicklogin .form-item .btn-caution .pwd-box{
+    display: inline-block;
+    width:190px;
+    height: 49px;
+    margin-right: 5px;
+}
+.passport-empty-inner .signup-article .quicklogin .form-item .btn-caution .pwd-box .pwd-ipt{
+    margin: 0;
+    padding-left: 10px;
+}
+.passport-empty-inner .signup-article .quicklogin .form-item .form-list{
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    background: #fff;
+    position: absolute;
+    left: 2px;
+    top: 15px;
+}
+.passport-empty-inner .signup-article .quicklogin .x-ipt,.pwd-ipt{
+    width: 308px;
+    height: 43px;
+    outline: none;
+    padding-left: 40px;
+    -webkit-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+}
+.passport-empty-inner .signup-article .quicklogin .btn-caution .send-ipt{
+    width: 150px;
+    height: 43px;
+    outline: none;
+    padding-left: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .btn-caution .send1,.send0{
+    display: inline-block;
+    width: 152px;
+    height: 49px;
+    color: #EB5A41;
+    border-radius: 5px;
+    border: 1px solid #EB5A41;
+    cursor: pointer;
+    text-align: center;
+    line-height: 49px;
+}
+.passport-empty-inner .signup-article .quicklogin .pwd-err{
+    width: 253px;
+    height: 20px;
+    font-size: 14px;
+}
+.passport-empty-inner .signup-article .quicklogin .pwd-err span{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: #EB5A41;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 14px;
+    display: none;
+}
+.passport-empty-inner .signup-article .quicklogin .login-box{
+    width: 350px;
+    height: 47px;
+    background: #EB5A41;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 47px;
+    margin: 25px auto;
+}
+.passport-empty-inner .signup-article .quicklogin .login-box a span{
+    color: #fff;
+    font-size: 20px;
+}
+.passport-empty-inner .signup-article .quicklogin .signup-link{
+    width: 348px;
+    height: 45px;
+    border:1px solid #EB5A41;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 47px;
+    margin: 25px auto;
+}
+.passport-empty-inner .signup-article .quicklogin .signup-link span{
+    color: #EB5A41;
+    font-size: 20px;
+}
+.passport-empty-inner .signup-article .quicklogin .form-sub{
+    display: inline-block;
+    width: 340px;
+    height: 35px;
+}
+.passport-empty-inner .signup-article .quicklogin .form-sub span{
+    width: 10px;
+    height: 10px;
+    color: #EB5A41;
+    vertical-align: middle;
+    background: #fff;
+    /* border: 1px solid #aaa; */
+}
+.passport-empty-inner .signup-article .quicklogin .form-sub input{
+    outline: none;
+    margin: 0;
+    background: #fff;
+    vertical-align: middle;
+    color: #EB5A41;
+    border: 1px solid #aaa;
+}
+
+.passport-empty-inner .signup-article .quicklogin .form-sub  a{
+    color: #0563c3;
+}
+.passport-empty-inner .signup-article .quicklogin .third-login{
+    width: 350px;
+    height: 122px;
+    margin: 0 auto;
+}
+.passport-empty-inner .signup-article .quicklogin .third-login .tit{
+    height: 8px;
+    text-align: center;
+    margin: 40px auto;
+    border-bottom: 1px solid #cdcdcd;
+}
+.passport-empty-inner .signup-article .quicklogin .third-login .tit span{
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    color:#666;
+}
+.passport-empty-inner .signup-article .quicklogin .weibo-login,
+.quicklogin .qq-login,
+.quicklogin .weixin-login{
+    float: left;
+    display: block;
+    margin-right: 10px;
+    width: auto;
+}
+.passport-empty-inner .signup-article .quicklogin .weibo-login a{
+    background: url(../images/login/login_webo.png) top left no-repeat;
+    padding:0 0 0 35px;
+    text-align: center;
+    color: #666;
+    display: block;
+    height: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .weibo-login a{
+    color: #666;
+    line-height: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .qq-login {
+    background: url(../images/login/login_qq.png) no-repeat 0 0;
+    padding-left: 35px;
+    color: #666;
+    display: block;
+    height: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .qq-login a{
+    color: #666;
+    line-height: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .weixin-login{
+    background: url(../images/login/login_weixin.png) no-repeat 0 0;
+    padding-left: 35px;
+    text-align: left;
+    display: block;
+    height: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .weixin-login a{
+    line-height:30px;
+    color: #666;
+}
+.passport-empty-inner .signup-article .quicklogin .quick-signup{
+    float: right;
+}
+.passport-empty-inner .signup-article .quicklogin .quick-signup{
+    background: url(../images/login/login_sigup.png) no-repeat;
+    padding-left: 35px;
+    text-align: left;
+    display: block;
+    height: 30px;
+}
+.passport-empty-inner .signup-article .quicklogin .quick-signup a{
+    line-height: 30px;
+    color: #666;
+}
+.passport-empty-copyright{
+    width: 440px;
+    margin: 50px auto 20px;
+    text-align: center;
+}

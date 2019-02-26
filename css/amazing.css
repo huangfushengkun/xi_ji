@@ -1,0 +1,381 @@
+
+.f5{
+    background-color: #f5f5f5;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+#container{
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+}
+/* 分类导航 */
+.inner-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.inner-wrap .header-box{
+    width: 100%;
+    height: 245px;
+    background: url(../images/amazi/amaz_nav_bg01.png) top center no-repeat;
+}
+.inner-wrap .header-box .header-tit{
+    width: 100%;
+    height: 115px;
+    background: url(../images/amazi/amaz_nav_00.png) center center no-repeat;
+}
+.inner-wrap .header-box .content-link{
+    width: 1160px;
+    height: 110px;
+    margin: 0 20px 20px 20px;
+    box-shadow: 0px 4px 10px #ddd;
+    border-radius: 5px;
+}
+.inner-wrap .holder ul{
+    width: 1100px;
+    height: 110px;
+    padding: 0 30px;
+    background-color: #fff;
+}
+.inner-wrap .holder li{
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+.inner-wrap .holder li a{
+    width: 90px;
+    height: 80px;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.inner-wrap .holder li a i{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 0 21px 0px;
+    background: url(../images/amazi/amaz_nav_01.png)  top center no-repeat;
+}
+.inner-wrap .holder li:nth-child(1) a i{
+    background-image: url(../images/amazi/amaz_nav_01.png);
+}
+.inner-wrap .holder li:nth-child(2) a i{
+    background-image: url(../images/amazi/amaz_nav_02.png);
+}
+.inner-wrap .holder li:nth-child(3) a i{
+    background-image: url(../images/amazi/amaz_nav_03.png);
+}
+.inner-wrap .holder li:nth-child(4) a i{
+    background-image: url(../images/amazi/amaz_nav_04.png);
+}
+.inner-wrap .holder li:nth-child(5) a i{
+    background-image: url(../images/amazi/amaz_nav_05.png);
+}
+.inner-wrap .holder li:nth-child(6) a i{
+    background-image: url(../images/amazi/amaz_nav_06.png);
+}
+.inner-wrap .holder li:nth-child(7) a i{
+    background-image: url(../images/amazi/amaz_nav_07.png);
+}
+.inner-wrap .holder li:nth-child(8) a i{
+    background-image: url(../images/amazi/amaz_nav_08.png);
+}
+.inner-wrap .holder li:nth-child(9) a i{
+    background-image: url(../images/amazi/amaz_nav_09.png);
+}
+.inner-wrap .holder .active a i{
+    background-position: bottom center ;
+}
+.inner-wrap .holder .active a span{
+    color:#ed5831;
+}
+.inner-wrap .holder li a span{
+    color: #666666;
+}
+.inner-wrap .holder li:hover a i{
+    background-position: bottom center ;
+}
+.inner-wrap .holder li:hover a span{
+    color:#ff6700;
+}
+/* 分类导航结束 */
+
+/* main-box 分类内容列表 */
+.main-box{
+    width: 100%;
+}
+.main-box .content-block{
+    width: 1120px;
+    height: 591px;
+    padding: 38px 38px 30px;
+    border: 1px solid #eeeeee;
+    margin: 0 auto 30px ;
+    background-color: #fff;
+}
+.main-box .content-block .content-inner{
+    width: 100%;
+    height: 543px;
+    background: url(../images/amazi/bg02.png) no-repeat;
+}
+/* 分类内容列表简介区域 */
+.main-box .content-inner .text-box{
+    float: right;
+    width: 450px;
+    height: 520px;
+    margin-right: 20px;
+    padding: 0 30px;
+}
+.main-box .text-box .logo-box{
+    height: 60px;
+    margin-top: 30px;
+    background: url(../images/amazi/text-logo.jpg) no-repeat;
+    background-size: auto 60px;
+}
+.main-box .text-box .tit{
+    height: 63px;
+}
+.main-box .tit a{
+    display: inline-block;
+    height: 23px;
+    margin: 20px 0 15px 0 ;
+    font-size: 23px;
+    color: #333333;
+}
+.main-box .txt a{
+    height: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+.main-box .text-box .buy-btn{
+    display: block;
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 15px 0 25px 0;
+    background-color: #212121;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.main-box .text-box .list-box{
+    
+    width: 480px;
+    /* height: 220px; */
+    /* background-color: palegoldenrod; */
+}
+.main-box .list-box ul li{
+    float: left;
+    width: 140px;
+    height: 217px;
+    padding-right: 20px;
+}
+.main-box .list-box ul li img{
+    width: 136px;
+    height: 136px;
+}
+.main-box .list-box ul li .list-title{
+    margin: 10px 0;
+}
+.main-box .list-box ul li a{
+    color: #666666;
+}
+/* 左边播放区域 */
+.main-box .content-inner .video-box{
+    float: left;
+    width: 590px;
+    height: 520px;
+    background: url(../images/amazi/border_new.png) center center no-repeat;
+    position: relative;
+}
+.main-box .video-box a{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -45px;
+    margin-top: -45px;
+    background: url(../images/amazi/play.png);
+}
+
+/* content-bottom */
+.main-box .content-block .content-bottom{
+    height: 18px;
+    margin-top: 30px;
+    line-height: 18px;
+    text-align: center;
+    /* background-color: pink; */
+}
+.main-box .content-bottom a{
+    color: #333333;
+    position: relative;
+    font-size: 14px;
+}
+.main-box .content-bottom a:before{
+    position: absolute;
+    right: -15px;
+    top: 2px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #333;
+}
+/* 分类内容列表结束 */
+/* 底部分頁 */
+ /* 分页样式 */
+.page-view {
+    width: 1200px;
+    height: 24px;
+    margin: 0 auto;
+    /* background-color: purple; */
+}
+.pageview .ellipsis {
+    margin-left: 5px;
+    letter-spacing: 0;
+}
+.page-view .page-list {
+    float: right;
+}
+.page-view .page-list li,.page-view .page-list span {
+    float: left;
+    margin-left: 5px;
+    padding: 1px 8px;
+
+}
+.page-view .page-list li {
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    color: #666666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.page-view .page-list .active {
+    background-color: #000;
+    color: #ffffff;
+    font-weight: bold;
+}
+.page-view .page-list .forbid{
+    color: #ccc;
+    cursor: not-allowed;
+    background-color: #f3f3f3;
+}
+/* 分页样式结束 */
+/* 右侧导航 */
+#right-nav{
+    width: 260px;
+    height: 440px;
+    position: fixed;
+    margin-right: 10px;
+    right: 0px;
+    bottom: 25%;
+}
+.right-nav-wrapper{
+    width: 260px;
+    height: 440px;
+    position: relative;
+}
+.right-nav-line{
+    width: 6px;
+    height: 440px;
+    background-color: #e1e1e1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.right-nav-line .right-nav-scrollbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 20px;
+    background-color: #999999;
+}
+.right-nav-content ul a{
+    text-decoration: none;
+    color: #212121
+}
+.right-nav-content ul a span {
+    font-size: 14px;
+    color: #212121;
+}
+.right-nav-content ul a:hover span{
+    color:#ff6700;
+}
+.right-nav-content ul a:hover .line{
+    background-color: #ff6700;
+}
+.right-nav-content{
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px;
+    height: 100%;
+}
+.right-nav-content ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.right-nav-content ul li{
+    height: 31px;
+    line-height: 31px;
+}
+.right-nav-content ul .active{
+    height: 50px;
+    line-height: 50px;
+    color: #000;
+}
+.right-nav-content ul .active a span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.right-nav-content ul .active a .line{
+    width: 80px;
+    height: 4px;
+    background-color: #212121;
+}
+.right-nav-content ul .active a:hover span{
+    color: #000000;
+}
+.right-nav-content ul .active a:hover .line{
+    background-color: #212121;
+}
+.right-nav-content a .line{
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: #212121;
+    vertical-align: 5px;
+}
+
+/* 返回顶部 */
+.go-top{
+    width: 40px;
+    height: 40px;
+    background: url(../images/amazi/gotop.png) center center;
+    background-color: #666;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.go-top:hover{
+    background-image: url(../images/amazi/gotop00.png);
+    background-color: #ffffff;
+}

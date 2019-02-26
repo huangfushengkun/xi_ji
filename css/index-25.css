@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+/* 西集好物样式 */
+.wap{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+/* 头部样式开始 */
+.wap .presell-new{
+    width: 1200px;
+    height: 810px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.presell-new .heading-block{
+    width: 1200px;
+    height:37px;
+    padding: 20px 0;
+    margin: 0 auto;
+    position: relative;
+}
+.presell-new .heading-block  a{
+    color: #000;
+    font-size: 30px;
+}
+.presell-new .heading-block span{
+    font-size: 14px;
+    color: #666;
+}
+.presell-new .heading-block .more-link{
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+    color: #666;
+    display: inline-block;
+    width: 65px;
+    height: 17px;
+    font-size: 12px;
+    background: url(../images/preferential-img/more_icon.png) right no-repeat ;
+}
+/* 头部样式结束 */
+/* 01-最新发布开始 */
+.presell-new .title-box1{
+    width: 1200px;
+    height: 390px;
+    margin: 0 auto;
+    position: relative;
+}
+.presell-new .title-box1 .goods-box1{
+    width: 550px;
+    height: 334px;
+    float: left;
+}
+/* ~01~标题样式开始 */
+
+.presell-new .goods-box1 .title-top{
+    width: 550px;
+    height: 55px;
+    background: url(../images/index-25img/presell_tit_bg.png) left top no-repeat 0 0;
+}
+.presell-new .title-top span{
+    font-size: 26px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+}
+.presell-new .goods-box1 .title-top{
+    width: 550px;
+    height: 55px;
+    background: url(../images/preferential-img/presell_tit_bg.png) left top no-repeat
+}
+/* ~01~标题样式结束 */
+/* ~01~轮播样式开始 */
+.presell-new .title-box1 .title-bottom{
+    width: 550px;
+    height: 285px;
+    overflow: hidden;
+}
+.presell-new .title-box1 .title-bottom .holder{
+    width: 1100px;
+    height: 285px;
+    position: relative;
+    background: #fff;
+}
+.presell-new .title-box1 .title-bottom .holder li{
+    width: 152px;
+    height: 260px;
+    float: left;
+    padding: 15px 15px 10px 15px;
+}
+.presell-new .title-box1 .title-bottom .holder .img-box img{
+    width: 152px;
+    height: 152px;
+}
+.presell-new .title-box1 .title-bottom .holder .txt-box{
+    width: 152px;
+    height: 35px;
+    margin: 8px 0;
+    overflow: hidden;
+}
+.presell-new .title-box1 .title-bottom .holder .txt-box a img{
+    width: 25px;
+    height: 16px;
+    vertical-align: middle;
+}
+.presell-new .title-box1 .title-bottom .holder .txt-box a{
+    color: #666;
+    font-size: 12px;
+}
+.presell-new .title-box1 .title-bottom .holder .price-box .price{
+    color: #333;
+    font-size: 16px;
+    font-weight:bold;
+}
+.presell-new .title-box1 .title-bottom .holder .price-box .tag-price{
+    color: #fff;
+    background: #f18164;
+    font-size: 12px;
+    padding: 0 3px;
+}
+/* ~01~轮播样式结束 */
+/* ~02~标题样式开始 */
+.presell-new .goods-box2{
+    width: 550px;
+    height: 334px;
+    float: right;
+}
+.presell-new .goods-box2 .title-top{
+    width: 550px;
+    height: 55px;
+    background: url(../images/index-25img/presell_tit_bg.png)  no-repeat;
+    background-position: 0 -56px;
+}
+
+/* ~02~标题样式结束 */
+
+/* ~03~标题样式开始 */
+.presell-new .goods-box3{
+    width: 550px;
+    height: 334px;
+    float: left;
+}
+.presell-new .goods-box3 .title-top{
+    width: 550px;
+    height: 55px;
+    background: url(../images/index-25img/presell_tit_bg.png)  no-repeat;
+    background-position: 0 -110px;
+}
+/* ~03~轮播样式结束 */
+
+/* ~04~标题样式开始 */
+.presell-new .goods-box4{
+    width: 550px;
+    height: 334px;
+    float: right;
+}
+.presell-new .goods-box4 .title-top{
+    width: 550px;
+    height: 55px;
+    background: url(../images/index-25img/presell_tit_bg.png)  no-repeat;
+    background-position: 0 -165px;
+}
+/* ~04~轮播样式结束 */
+
+/* 轮播箭头开始 */
+.presell-new .title-box1 .title-bottom .holder a.prev{
+    display: inline-block;
+    position: absolute;
+    left: 520px;
+    top: 138px;
+    margin-top: -45.5px;
+    width: 31px;
+    height: 46px;
+    background: url(../images/index-25img/control_btn.png) no-repeat;
+    background-position: 0 0;
+}
+.presell-new .title-box1 .title-bottom .holder a.next{
+    display: inline-block;
+    position: absolute;
+    left: 520px;
+    top: 185px;
+    margin-top: -45.5px;
+    width: 31px;
+    height: 46px;
+    background: url(../images/index-25img/control_btn.png) no-repeat;
+    background-position: 0 -46px;
+}
+.holder a.prev:hover{
+    background: url(../images/index-25img/control_btn.png) no-repeat;
+    background-position: 0 -92px;
+}
+.holder a.next:hover{
+    background: url(../images/index-25img/control_btn.png) no-repeat;
+    background-position: 0 -138px;
+}
+/* 轮播箭头结束 */
+
+/* 优题专选样式开始 */
+.wap .fine-select{
+    width: 1200px;
+    height: 810px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+.fine-select .heading-block{
+    width: 1200px;
+    height:28px;
+    padding: 22px 0;
+    margin: 0 auto;
+    position: relative;
+}
+.fine-select .heading-block a{
+    color: #000;
+    font-size: 30px;
+}
+.fine-select .heading-block span{
+    font-size: 14px;
+    color: #666;
+}
+.fine-select .fine-select-inner{
+    position: relative;
+}
+/* 对字体设置样式开始 */
+.fine-select .fine-select-inner .inner-box .tit{
+    display: block;
+    padding-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #666;
+}
+.fine-select .fine-select-inner .inner-box .txt{
+    font-size: 14px;
+    color: #666;
+    margin-left: 15px;
+}
+.inner-box .tit:hover{
+    text-decoration: underline;
+}
+.inner-box .txt:hover{
+    text-decoration: underline;
+}
+/* 对字体设置样式结束 */
+.fine-select .fine-select-inner .item1{
+    width: 240px;
+    height: 240px;
+    background: #dee1da;
+    position: relative;
+    transition: all 0.2s;
+}
+.fine-select .fine-select-inner .item1 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+    transition:transform .5s;
+}
+
+.fine-select .fine-select-inner .item2 .inner-box{
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 300px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.fine-select .fine-select-inner .item2 a{
+    display: inline-block;
+    width: 132px;
+    height: 34px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000;
+    border-radius: 7%;
+    border: 1px solid #b2b2b2;
+    transition: all .2s;
+}
+.fine-select .fine-select-inner .item3{
+    position: absolute;
+    left: 600px;
+    top: 0;
+    width: 360px;
+    height: 240px;
+    background: #e8ebe1;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item3 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item4{
+    position: absolute;
+    left: 960px;
+    top: 0;
+    width: 240px;
+    height: 240px;
+    background: #e8e8e8;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item4 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item5{
+    position: absolute;
+    left: 0;
+    top: 240px;
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item5 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item6{
+    position: absolute;
+    left: 240px;
+    top: 240px;
+    width: 240px;
+    height: 240px;
+    background: #dee1da;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item6 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item7{
+    position: absolute;
+    left: 480px;
+    top: 240px;
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item7 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item8{
+    position: absolute;
+    left: 720px;
+    top: 240px;
+    width: 240px;
+    height: 240px;
+    background: #f1f3ef;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item8 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item9{
+    position: absolute;
+    left: 960px;
+    top: 240px;
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item9 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item10{
+    position: absolute;
+    left: 0;
+    top: 480px;
+    width: 360px;
+    height: 240px;
+    background: #e8ebe1;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item10 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item11{
+    position: absolute;
+    left: 360px;
+    top: 480px;
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item11 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item12{
+    position: absolute;
+    left: 600px;
+    top: 480px;
+    width: 360px;
+    height: 240px;
+    background: #e8ebe1;
+    transition: all 1s;
+}
+.fine-select .fine-select-inner .item12 .inner-box img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+.fine-select .fine-select-inner .item13{
+    position: absolute;
+    left: 960px;
+    top: 480px;
+    width: 240px;
+    height: 240px;
+    background: url(../images/index-25img/sel_more_bg.png) no-repeat 0 0;
+}
+.fine-select .fine-select-inner .item13 .tit{
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin-top: 90px;
+}
+.fine-select .fine-select-inner ul li:hover img{
+    transform: translate(3px,0);
+}
+.item2 .inner-box a:hover{
+    color: #fff;
+    background: #000;
+}
+/* 优题专选样式开始 */

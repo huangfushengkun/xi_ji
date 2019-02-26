@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="passport-empty-inner">
+        <div class="signup-article">
+            <!-- <div class="userSelect">
+                <label for class="countryLabel ">选择所在国家</label>
+                <div class="exform-setpop-spl">
+                    <div class="side-box">
+                        <i class="down"></i>
+                    </div>
+                    <span title="China">
+                        <i class="ch"></i>
+                    </span>
+                </div>
+            </div> -->
+            <div class="quicklogin">
+                <form action="api/signin.php" method="POST">
+                    <ul>
+                        <li class="form-item">
+                            <span class="form-act">
+                                <input type="text" name="user" class="user x-ipt " placeholder="">
+                                <div class="form-label user-label">请输入手机号</div>
+                            </span>
+                            <span class="form-list">+86</span>
+                            <p class="user-err">请输入正确的手机号</p>
+                        </li>
+                        <!-- 短信验证 -->
+                        <!-- <li class="form-item">
+                            <div class="btn-caution">
+                                <span class="pwd-box">
+                                    <input type="password" name="pwd" class="send-ipt " placeholder="">
+                                    <span class="form-label send-label">输入短信验证码</span>
+                                </span>
+                                <a class="send1">获取短信验证码</a>
+                            </div>
+                            <p class="send-err"><span>验证码错误,请重新获取</span></p>
+                        </li> -->
+                        <li class="form-item">
+                            <span class="form-act">
+                                <input type="password" name="uname" class="pwd pwd-ipt pw1" placeholder="">
+                                <div class="form-label pwd-label label1">由6-20个字母 数字和符号至少两种的组合</div>
+                            </span>
+                            
+                        </li>
+                        <li class="form-item">
+                                <span class="form-act">
+                                    <input type="password" name="pwd" class="pwd-ipt pw2" placeholder="">
+                                    <div class="form-label pwd-label label2">再次输入您以设置的密码</div>
+                                </span>
+                                <p class="pwd-err">两次密码不一致,请重新设置！</p>
+                            </li>
+                        <li class="form-item">
+                            <p class="login-err"><span></span></p>
+                            <div class="login-box">
+                                <a href="javascript:void(0);"><span>注&nbsp;&nbsp;册</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="signup-link">
+                                <a href="passport-login.html"><span>已有账号,去登陆</span></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-sub">
+                                <span><input type="checkbox" checked="checked"></span>
+                                <span class="tit">我已阅读
+                                    <a href="#">《西集注册协议和隐私政策》</a>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="passport-empty-copyright">Copyright © 2017 XIJI Hongkong Co., Ltd xiji.com 保留一切权利。</div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?php
+include("../inc/dbconn.php");
+$id = $_POST["delData"];
+$sql="delete from cart where id='$id'";
+$result = $conn->query($sql);
+// if($result->num_rows>0){
+//     while($row=mysqli_fetch_assoc($result)){
+//         $data[]=$row;
+//     }
+// }
+// echo json_encode($data);

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<!-- .lm17814601833-->
+<body>
+    <div class="inner-box clearfix">
+        <div class="logo-box">
+            <a href="#">
+                <img src="images/login/passport_bg_161124.png" alt="">
+            </a>
+        </div>
+        <div class="login-list clearfix">
+            <ul class="login-tab clearfix">
+                <li class="tab-link active">
+                    <span>账号密码登录</span>
+                </li>
+                <li class="tab-link">
+                    <span>手机快捷登陆</span>
+                </li>
+            </ul>
+            <div class="pro-box-btm">
+                <!-- 账号密码登录 -->
+                <div class="singnin show">
+                    <form action="api/dologin.php" method="">
+                        <ul>
+                            <li class="form-item">
+                                <span class="form-act">
+                                    <!-- value="17814601833" -->
+                                    <input type="text" name="uname" checked="checked" class="user x-ipt" placeholder="" >
+                                    <div class="form-label user-label">请输入用户名&nbsp;/邮箱&nbsp;/手机号</div>
+                                </span>
+                                <p class="user-err">请输入正确的手机号</p>
+                            </li>
+                            <li class="form-item">
+                                <div class="btn-caution">
+                                    <span class="pwd-box form-act">
+                                        <!--  value=".lm17814601833" -->
+                                        <input type="password" name="pwd" checked="checked" class="pwd pwd-ipt" placeholder="">
+                                        <span class="form-label pwd-label">输入密码</span>
+                                    </span>
+
+                                </div>
+                                <p class="pwd-err">
+                                    请输入密码
+                                </p>
+                            </li>
+                            <li>
+                                <div class="form-act1">
+                                    <span class="form-checker"><input type="checkbox" checked="checked"></span>
+                                    <span>记住账号</span>
+                                    <span class="form-checker"><input type="checkbox" checked="checked"></span>
+                                    <span>两周内自动登录</span>
+                                    <a href="#" class="forgetpsw-link">忘记密码</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="login-err">用户名或密码错误</p>
+                                <div class="login-box">
+                                    <a href="javascript:void(0);"><span>登 &nbsp;陆</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="signup-link">
+                                    <a href="passport-signup.html"><span>30秒注册</span></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="third-login">
+                        <div class="tit">
+                            <span>其他登陆方式</span>
+                        </div>
+                        <div class="clearfix">
+                            <div class="weibo-login">
+                                <a href="#">微博</a>
+                            </div>
+                            <div class="qq-login">
+                                <a href="#">QQ</a>
+                            </div>
+                            <div class="weixin-login">
+                                <a href="#">微信</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 手机快捷键登陆 -->
+                <div class="quicklogin">
+                    <form action="api/dologin.php" method="POST">
+                        <ul>
+                            <li class="form-item">
+                                <span class="form-act">
+                                    <input type="text" name="uname" class="user x-ipt" placeholder="">
+                                    <div class="form-label user-label">请输入手机号</div>
+                                </span>
+                                <span class="form-list">+86</span>
+                                <p class="user-err">请输入手机号</p>
+                            </li>
+                            <li class="form-item">
+                                <div class="btn-caution">
+                                    <span class="pwd-box">
+                                        <input type="password" name="pwd" class="pwd-ipt" placeholder="">
+                                        <span class="form-label pwd-label">输入短信验证码</span>
+                                    </span>
+                                    <a class="send1">获取短信验证码</a>
+                                </div>
+                                <p class="pwd-err">请输入密码</p>
+                            </li>
+                            <li>
+                                <div class="form-act1">
+                                    <span class="form-checker"><input type="checkbox" checked="checked"></span>
+                                    <span>记住账号</span>
+                                    <span class="form-checker"><input type="checkbox" checked="checked"></span>
+                                    <span>两周内自动登录</span>
+                                    <a href="#" class="forgetpsw-link">忘记密码</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p class="login-err">用户名或密码错误</p>
+                                <div class="login-box">
+                                    <a href="javascript:void(0);"><span>登&nbsp;&nbsp;陆</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="form-sub">
+                                    <span><input type="checkbox" checked="checked" disabled></span>
+                                    <p class="tit">如果您的账号未注册，则为您自动注册，也将默认您接受
+                                        <a href="#">《西集注册协议和隐私政策》</a>
+                                        的全部内容。
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="third-login">
+                        <div class="tit">
+                            <span>其他登陆方式</span>
+                        </div>
+                        <div class="clearfix">
+                            <div class="weibo-login">
+                                <a href="#">微博</a>
+                            </div>
+                            <div class="qq-login">
+                                <a href="#">QQ</a>
+                            </div>
+                            <div class="weixin-login">
+                                <a href="#">微信</a>
+                            </div>
+                            <div class="quick-signup">
+                                <a href="passport-signup.html">快速注册</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="passport-empty-copyright">Copyright © 2017 XIJI Hongkong Co., Ltd xiji.com 保留一切权利。</div>
+
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

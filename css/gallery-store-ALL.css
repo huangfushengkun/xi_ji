@@ -1,0 +1,349 @@
+
+body{
+    background-color: #f5f5f5;
+}
+.inner-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+em{
+    font-style: normal;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+}
+
+a,label{
+    color: #666;
+}
+.filter-entries-values .current{
+    color: #ed5831 !important;
+}
+.container .filter-title{
+    height: 24px;
+    line-height: 24px;
+    margin: 15px 0;
+}
+.container .filter-content{
+
+}
+/* 左侧分类筛选区样式 */
+.container .gallery_filter_list{
+    width: 250px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+.container .filter-entries{
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #E6E6E6;
+    width: auto;
+    float: none;
+    line-height: 50px;
+    padding-left: 20px;
+    margin: 0;
+}
+.container .filter-entries .filter-entries-label{
+    font-size: 16px;
+    color: #000;
+}
+/* 超出滚动 */
+.container .filter-entries .ofh{
+    max-height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+.container .filter-entries .rightNav-box ul{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.container .filter-entries .nav-line{
+    position: absolute;
+    z-index: 9999;
+    width: 7px;
+    bottom: 2px;
+    top: 2px;
+    right: 5px;
+}
+.container .filter-entries .nav-line .nav-line-bar{
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    width: 100%;
+    transition-duration: 0ms;
+    display: block;
+    height: 48px;
+    transform: translate(0px, 2px) translateZ(0px);
+    transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+    }
+.container .filter-entries .filter-entries-items{
+    height: 21px;
+    line-height: 21px;
+    
+    margin: 0 3px 4px;
+}
+.container .filter-entries .filter-entries-items span{
+    font-size: 14px;
+    color: #666666;
+    cursor: pointer;
+}
+.container .filter-entries .filter-entries-items span:hover{
+    color: #ed5831;
+}
+/* 左侧分类筛选区样式结束 */
+.container .goods-right-box{
+    width: 925px;
+    float: right;
+}
+/* 价格销量排序区样式 */
+.container .gallery-sortBar{
+    height: 40px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ebebeb;
+}
+.container .gallery-sort a{
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+}
+.container .gallery-sort a:hover{
+    color: #ed5831;
+
+}
+.container .gallery-sort a.active{
+    color: #ed5831;
+    background: url(../images/gallery-store/tab_bg.png) bottom center  no-repeat;
+}
+.container .gallery-sortBar .gallery-sort{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.container .gallery-sortBar .gallery-showmode{
+    float: left;
+    height: 40px;
+}
+.container .gallery-sortBar .gallery-showmode{
+    padding: 11px 2px 8px 10px;
+    box-sizing: border-box;
+}
+.container .gallery-sortBar .mini-pageview{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+}
+.container .gallery-sortBar .gallery-showmode div{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+}
+ .container .gallery-sortBar .gallery-showmode div span{
+     display: inline-block;
+    width: 19px;
+    height: 19px;
+    line-height: 1.5;
+    background: url(../images/gallery-store/sprite_161129.png) no-repeat;
+    background-position: 0 -260px;
+} 
+.container .gallery-sortBar .gallery-showmode div span.active{
+    background-position: -76px -260px;
+    
+}
+.container .gallery-sortBar .gallery-showmode label{
+    vertical-align: top;
+    margin-right: 15px;
+}
+.container .gallery-sortBar .gallery-showmode div input{
+    opacity: 0;
+} 
+.container .gallery-sortBar .mini-pageview a{
+    border: 1px solid #ddd;
+    height: 19px;
+    line-height: 19px;
+    width: 12px;
+    margin-top: 10px;
+    /* text-align: left; */
+    background: #f9f9f9;
+    padding: 1px 7px 1px 3px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.container .gallery-sortBar .mini-pageview a i{
+    text-align: right;
+    margin-right: 5px;
+}
+.mini-pageview .over {
+    color: #ccc;
+    cursor: not-allowed;
+}
+/* 商品列表区样式 */
+.container .gallery-grid{
+    width: 100%;
+    padding: 10px 6px 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+.container .gallery-grid ul li{
+    float: left;
+    margin: 0 5px 10px;
+}
+.container .gallery-grid ul .goods-item-outer{
+    position: relative;
+    width: 215px;
+    height: 340px;
+    overflow: hidden;
+}
+.container .gallery-grid .goods-item-inner{
+    width: 195px;
+    height: 367px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #fff;
+    background-color: #fff;
+    transition-duration: 0.2s;
+    padding: 15px 10px 10px;
+}
+.container .gallery-grid ul li:hover .goods-item-outer{
+    overflow: visible;
+}
+.container .gallery-grid ul li:hover .goods-item-inner{
+    transition-duration: 0.2s;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 1px #DDD solid;
+    z-index: 1000;
+}
+.container .gallery-grid .goods-item .goods-pic img{
+    width: 195px;
+    height: 195px;
+    margin-bottom: 10px;
+}
+.container .gallery-grid .goods-item .goods-price{
+    height: 50px;
+}
+.container .gallery-grid .goods-item .now{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container .gallery-grid .goods-item .del{
+    color: #999;
+    text-decoration: line-through;
+}
+.container .gallery-grid .goods-item .goods-name a{
+    font-size: 13px;
+    line-height: 20px;
+    color: #666;
+    max-height: none;
+    display: block;
+    height: 39px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-weight: normal;
+}
+.container .gallery-grid .goods-item .tag-box{
+    height: 26px;
+}
+.container .gallery-grid .goods-item .tag-box span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 188px;
+    display: inline-block;
+    color: #fff;
+    background-color: #ED5831;
+    border: 1px solid #ED5831;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    padding: 0 2px;
+    margin: 0 3px 3px 0;
+}
+/* 自营 */
+.container .gallery-grid .goods-item .tag-box .self {
+    background-color: #FFF;
+    color: #ED5831;
+    border: 1px solid #ED5831;
+}
+/* 非自营 */
+.container .gallery-grid .goods-item .tag-box .not-self {
+    background-color: #FFF;
+    color: #9d9d9d;
+    border: 1px solid #9d9d9d;
+}
+.container .gallery-grid .goods-item .btm-box a{
+    display: block;
+    border: 1px solid #ED5831;
+    border-radius: 3px;
+    color: #ED5831;
+    height: 32px;
+    line-height: 32px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    margin: 8px 0 0 0!important;
+    transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+
+}
+.container .gallery-grid .goods-item .btm-box a:hover{
+    background-color: #ED5831;
+    color: #fff;
+}
+/* 商品列表区样式结束 */
+/* 分页样式 */
+.page-view {
+    width: 905px;
+    height: 24px;
+    margin: 40px 10px 10px;
+    /* background-color: purple; */
+}
+.pageview .ellipsis {
+    margin-left: 5px;
+    letter-spacing: 0;
+}
+.page-view .page-list {
+    float: right;
+}
+.page-view .page-list li,.page-view .page-list span {
+    float: left;
+    margin-left: 5px;
+    padding: 1px 8px;
+
+}
+.page-view .page-list li {
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    color: #666666;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.page-view .page-list .active {
+    background-color: #000;
+    color: #ffffff;
+    font-weight: bold;
+}
+.page-view .page-list .forbid{
+    color: #ccc;
+    cursor: not-allowed;
+    background-color: #f3f3f3;
+}
+/* 分页样式结束 */

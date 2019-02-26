@@ -1,0 +1,404 @@
+html,body{
+    background-color: #f5f5f5;
+}
+.inner-box{
+    width: 542px;
+    height: 752px;
+    margin: 80px auto 20px;
+    border: 1px solid #D8D8D8;
+    background-color: #fff;
+}
+.inner-box .logo-box{
+    width: 542px;
+    height: 81px;
+    overflow: hidden;
+}
+.inner-box .login-list{
+    width: 542px;
+    height: 460px;
+    float: left;
+}
+.inner-box .login-list .login-tab{
+    display: inline-block;
+    width: 542px;
+    height: 45px;
+}
+.inner-box .login-list .login-tab .tab-link{
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    width: 269px;
+    height: 45px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.inner-box .login-list .login-tab .active{
+    background: #fff;
+    color: #EB5A41;
+    /* border-bottom: 1px solid #EB5A41; */
+}
+.inner-box .login-list .login-tab .tab-link span{
+    font-size: 20px;
+    /* border-bottom: 1px solid #EB5A41; */
+}
+.inner-box .login-list .pro-box-btm{
+    position: relative;
+}
+.inner-box .login-list .pro-box-btm .show{
+    display: block;
+} 
+/* 密码登陆样式----开始 */
+/*密码登陆错误提示--- */
+.inner-box .login-list .pro-box-btm .singnin .user-err{
+    margin-left: 96px;
+    font-size: 14px;
+    color: #EB5A41;
+    display: none;
+}
+.inner-box .login-list .pro-box-btm .singnin .pwd-err{
+    margin-left: 96px;
+    font-size: 14px;
+    color: #EB5A41;
+    display: none;
+}
+.inner-box .login-list .pro-box-btm .singnin .login-err{
+    margin-left: 96px;
+    font-size: 16px;
+    color: #f00;
+    display: none;
+}
+/*---密码登陆错误提示 */
+.inner-box .login-list .pro-box-btm .singnin{
+    width: 542px;
+    height: 220px;
+    display: none;
+    margin-top: 35px;
+}
+.inner-box .login-list .pro-box-btm ul li.caution{
+    display: inline-block;
+    width: 200px;
+    height: 16px;
+    margin-left: 110px;
+    color: #666;
+    background: #fff;
+}
+.inner-box .login-list .pro-box-btm .singnin .x-ipt,.pwd-ipt{
+    width: 322px;
+    height: 43px;
+    outline: none;
+    padding-left: 37px;
+}
+.inner-box .login-list .pro-box-btm .login-box{
+    width: 350px;
+    height: 47px;
+    background: #EB5A41;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 47px;
+    margin: 20px auto;
+}
+.inner-box .login-list .pro-box-btm .singnin .login-box span{
+    color: #fff;
+    font-size: 20px;
+}
+.inner-box .login-list .pro-box-btm .singnin .signup-link{
+    width: 348px;
+    height: 45px;
+    border:1px solid #EB5A41;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 47px;
+    margin: 25px auto;
+}
+.inner-box .login-list .pro-box-btm .singnin .signup-link span{
+    color: #EB5A41;
+    font-size: 20px;
+}
+.inner-box .login-list .pro-box-btm .singnin .third-login{
+    width: 350px;
+    height: 122px;
+    margin: 0 auto;
+}
+.inner-box .login-list .pro-box-btm .singnin .third-login .tit{
+    width: 350px;
+    height: 8px;
+    text-align: center;
+    margin: 35px auto;
+    border-bottom: 1px solid #cdcdcd;
+}
+.inner-box .login-list .pro-box-btm .singnin .third-login .tit span{
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    color:#666;
+}
+.inner-box .login-list .pro-box-btm .singnin .weibo-login,.singnin .qq-login,.singnin .weixin-login{
+    float: left;
+    display: block;
+    margin:0 33px;
+    width: 50px;
+}
+.inner-box .login-list .pro-box-btm .singnin .weibo-login a{
+    display: block;
+    color: #666;
+    text-align: center;background: url(../images/login/webo_icon.png) top center no-repeat;
+    padding-top: 55px;
+}
+.inner-box .login-list .pro-box-btm .singnin .qq-login a{
+    display: block;
+    color: #666;
+    text-align: center;background: url(../images/login/qq_icon.png) top center no-repeat;
+    padding-top: 55px;
+}
+.inner-box .login-list .pro-box-btm .singnin .weixin-login a{
+    display: block;
+    color: #666;
+    text-align: center;background: url(../images/login/weixin_icon.png) top center no-repeat;
+    padding-top: 55px;
+}
+/* 密码登陆样式----结束 */
+.inner-box .login-list .pro-box-btm .form-item{
+    position: relative;
+    margin-bottom: 30px;
+    height: 50px;
+    margin: 0 0 30px 0;
+} 
+/* 动态添加类名样式---开始 */
+.inner-box .login-list .pro-box-btm .form-item .form-label{
+    position: absolute;
+    left: 135px;
+    top: 15px;
+    display: inline-block;
+    height: 22px;
+    font-size: 15px;
+    color:#a3a3a3;
+    background: #fff;
+   -webkit-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+} 
+.inner-box .login-list .pro-box-btm .form-item .focus{
+    color: #EB5A41;
+    top: -8px;
+}
+/* 动态添加类名样式---结束 */
+/*  自动登录样式-----开始  */
+.inner-box .login-list .pro-box-btm .form-act1{
+    display: inline-block;
+    width: 361px;
+    height: 18px;
+    margin: 0 0 0 96px ;
+    vertical-align: middle;
+}
+.inner-box .login-list .pro-box-btm .form-act1 .form-checker{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align:middle;
+    /* border: 1px solid #c3c3c3; */
+}
+.inner-box .login-list .pro-box-btm .form-act1 .form-checker input{
+    margin: 0;
+    outline: none;
+}
+.inner-box .login-list .pro-box-btm .form-act1 .forgetpsw-link{
+    color: #0563c3;
+    margin-top: 15px;
+    padding-left: 20px;
+    margin-left: 100px;
+    background: url(../images/login/pro_icon07.png) no-repeat 0 0;
+}
+/*  自动登录样式-----结束  */
+
+/*手机快捷登陆样式----开始 */
+
+/*手机快捷登陆错误提示--- */
+.inner-box .login-list .pro-box-btm .quicklogin .user-err{
+    margin-left: 96px;
+    font-size: 14px;
+    color: #EB5A41;
+    display: none;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .pwd-err{
+    margin-left: 96px;
+    font-size: 14px;
+    color: #EB5A41;
+    display: none;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .login-err{
+    margin-left: 96px;
+    font-size: 16px;
+    color: #f00;
+    display: none;
+}
+/*---手机快捷登陆错误提示 */
+.inner-box .login-list .pro-box-btm .quicklogin{
+    width: 542px;
+    height: 420px;
+    margin-top: 35px;
+    display: none;
+}
+.inner-box .login-list .pro-box-btm .form-item .form-act{
+    display: block;
+    width: 363px;
+    height: 49px;
+    margin:20px  96px 0 96px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-act.btn-caution{
+    margin: 0 auto;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-item .btn-caution .pwd-box{
+    display: inline-block;
+    width:190px;
+    height: 49px;
+    margin-left: 96px;
+    margin-right: 5px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-item .btn-caution .pwd-box .pwd-ipt{
+    margin: 0;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-item .form-list{
+    display: block;
+    width: 27px;
+    height: 20px;
+    font-size: 16px;
+    background: #fff;
+    position: absolute;
+    left: 100px;
+    top: 14px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .x-ipt{
+    width: 319px;
+    height: 43px;
+    outline: none;
+    padding-left: 40px;
+    -webkit-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .btn-caution .pwd-ipt{
+    width: 149px;
+    height: 43px;
+    outline: none;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .btn-caution .send1,.send0{
+    display: inline-block;
+    width: 152px;
+    height: 49px;
+    color: #EB5A41;
+    border-radius: 5px;
+    border: 1px solid #EB5A41;
+    cursor: pointer;
+    text-align: center;
+    line-height: 49px;
+}
+
+.inner-box .login-list .pro-box-btm .quicklogin .login-box a span{
+    color: #fff;
+    font-size: 20px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-sub{
+    display: inline-block;
+    width: 340px;
+    height: 35px;
+    margin: 0 96px ;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-sub span{
+    width: 10px;
+    height: 10px;
+    color: #EB5A41;
+    vertical-align: middle;
+    background: #fff;
+    /* border: 1px solid #aaa; */
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-sub input{
+    outline: none;
+    margin: 0;
+    background: #fff;
+    vertical-align: middle;
+    color: #EB5A41;
+    border: 1px solid #aaa;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-sub p{
+    display: inline;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .form-sub p a{
+    color: #0563c3;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .third-login{
+    width: 350px;
+    height: 122px;
+    margin: 0 auto;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .third-login .tit{
+    height: 8px;
+    text-align: center;
+    margin: 40px auto;
+    border-bottom: 1px solid #cdcdcd;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .third-login .tit span{
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    color:#666;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .weibo-login,
+.quicklogin .qq-login,
+.quicklogin .weixin-login{
+    float: left;
+    display: block;
+    margin-right: 10px;
+    width: auto;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .weibo-login a{
+    background: url(../images/login/login_webo.png) top left no-repeat;
+    padding:0 0 0 35px;
+    text-align: center;
+    color: #666;
+    display: block;
+    height: 30px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .weibo-login a{
+    color: #666;
+    line-height: 30px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .qq-login {
+    background: url(../images/login/login_qq.png) no-repeat 0 0;
+    padding-left: 35px;
+    color: #666;
+    display: block;
+    height: 30px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .qq-login a{
+    color: #666;
+    line-height: 30px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .weixin-login{
+    background: url(../images/login/login_weixin.png) no-repeat 0 0;
+    padding-left: 35px;
+    text-align: left;
+    display: block;
+    height: 30px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .weixin-login a{
+    line-height:30px;
+    color: #666;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .quick-signup{
+    float: right;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .quick-signup{
+    background: url(../images/login/login_sigup.png) no-repeat;
+    padding-left: 35px;
+    text-align: left;
+    display: block;
+    height: 30px;
+}
+.inner-box .login-list .pro-box-btm .quicklogin .quick-signup a{
+    line-height: 30px;
+    color: #666;
+}
+/* 手机快捷登陆样式-----结束  */
+.passport-empty-copyright{
+    width: 440px;
+    margin: 50px auto 20px;
+    text-align: center;
+}

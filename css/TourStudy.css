@@ -1,0 +1,1101 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+} */
+/* .clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{zoom:1}
+a{
+    text-decoration: none;
+} */
+/******************** 留学 旅游 点击按钮 */
+#topics-study{
+    /* width: 1903px; */ 
+    width: 100%;
+    /* display: none; */
+
+}
+.btn-block{
+    width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0;
+}
+.btn-block-inner{
+    font-size: 0;
+}
+.btn-block-inner a{
+    width: 275px;
+    height: 60px;
+    border:1px solid #59a9ca;
+    font-size: 18px;
+    border-radius: 6%;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    color:#59a9ca;
+}
+.btn-block .btn-block-inner .active{
+    background-color: #59a9ca;
+    color: #fff;
+}
+/******************** 轮播图 */
+.top-block{
+    width: 100%;
+    background-color: #fff;
+
+}
+#topics-study .top-block .gallery{
+    width: 1200px;
+    height: 390px;
+    margin: 0 auto 50px;
+    position: relative;
+    overflow: hidden;
+}
+.slide-item{
+    height: 390px;
+}
+.slide-item a{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+
+.control .prev{
+    position: absolute;
+    top: 158px;
+    left: 20px;
+    background: url("../images/TourStudy/right.png");
+    width: 40px;
+    height: 70px;
+    display: none;
+}
+.control .next{
+    position: absolute;
+    top: 158px;
+    right: 20px;
+    background: url("../images/TourStudy/left.png");
+    width: 40px;
+    height: 70px;
+    display: none;
+}
+#topics-study .topics-slide .paging{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -600px;
+    padding: 5px 0px;
+    border-radius: 13px;
+    width: 1200px;
+    text-align: center;
+    height: 8px;
+    line-height: 8px;
+    z-index: 100;
+}
+#topics-study .topics-slide .paging li{
+    float: none;
+    display: inline-block;
+    zoom: 1;
+    height: 8px;
+    margin: 0 5px;
+    height: 8px;
+    width: 8px;
+    text-align: center;
+    color: #999;
+    font-size: 0px;
+    background-color: #999;
+    border-radius: 100%;
+}
+/* ******************* 西集网 留学频道全开放*/
+#topics-study .tit-box{
+    text-align: center;
+}
+#topics-study .tit-box .tit-inner {
+    border: 1px solid #ee5726;
+    height: 36px;
+    display: inline-block;
+    padding: 0 10px;
+}
+#topics-study .tit-box .tit-inner .tit-main {
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .top-block .tit-inner .tit-main span {
+    color: #ed5831;
+    background-color: #FFF;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+#topics-study .top-block .tit-inner .tit-main span.en {
+    font-size: 20px;
+}
+
+/* ******************* */
+#topics-study .top-block .text-block {
+    width: 1200px;
+    margin: 30px auto 0;
+}
+#topics-study .top-block .text-block .left-box {
+    width: 665px;
+    float: left;
+    margin: 0 0 0 20px;
+}
+#topics-study .top-block .text-block .left-box .txt-box01 {
+    background: url(../images/TourStudy/005.png) 0 0 no-repeat;
+    padding: 20px 10px 10px 30px;
+}
+#topics-study .top-block .text-block .left-box .txt-box01 .tit01, #topics-study .top-block .text-block .left-box .txt-box02 .tit01, #topics-study .top-block .text-block .left-box .txt-box03 .tit01 {
+    font-size: 16px;
+    color: #000;
+    margin: 0 0 5px 15px;
+}
+#topics-study .top-block .text-block .left-box .txt-box01 .txt01, #topics-study .top-block .text-block .left-box .txt-box02 .txt01, #topics-study .top-block .text-block .left-box .txt-box03 .txt01 {
+    font-size: 14px;
+    color: #666;
+}
+/* ******************* */
+#topics-study .top-block .text-block .left-box .txt-box02 {
+    background: url(../images/TourStudy/006.png) 0 0 no-repeat;
+    padding: 20px 10px 10px 30px;
+    margin: 10px 0;
+}
+/* ******************* */
+#topics-study .top-block .text-block .left-box .txt-box03 {
+    background: url(../images/TourStudy/007.png) 0 0 no-repeat;
+    padding: 20px 10px 10px 30px;
+}
+#topics-study .top-block .text-block .right-box {
+    width: 430px;
+    padding-top: 25px;
+    float: left;
+    margin-left: 70px;
+}
+#topics-study .top-block .text-block .right-box p {
+    font-size: 15px;
+    margin: 20px 0;
+    letter-spacing: 2.5px;
+}
+/* ***************** 为何在新西兰选择中纽留学 */
+#topics-study .main-block01 {
+    /* width: 1200px; */
+    width: 100%;
+    background-color: #F5F5F5;
+    /* margin: 0 auto; */
+    padding: 50px 0 50px;
+    margin-top: 10px;
+}
+#topics-study .main-block01 .tit-box {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#topics-study .main-block01 .tit-box .tit-inner {
+    border: 1px solid #ee5726;
+    height: 36px;
+    display: inline-block;
+    padding: 0 10px;
+}
+#topics-study .main-block01 .tit-box .tit-inner .tit-main {
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .main-block01 .tit-box .tit-inner .tit-main span {
+    color: #ed5831;
+    background-color: #F5F5F5;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+#topics-study .main-block01 .main-block01-inner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#topics-study .main-block01 .main-block01-inner .text-box {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-bottom: 80px;
+    font-size: 14px;
+}
+#topics-study .main-block01 .main-block01-inner .text-box p:first-child {
+    padding: 0 0 25px 0;
+    border-bottom: 1px dashed #999;
+}
+#topics-study .main-block01 .main-block01-inner .text-box p {
+    text-align: center;
+    padding-top: 25px;
+}
+#topics-study .main-block01 .main-block01-inner ul{
+    width: 1230px;
+    margin-right: -30px;
+}
+#topics-study .main-block01 .main-block01-inner ul li{
+    width: 380px;
+    margin: 0 30px 0 0;
+    text-align: center;
+    float: left;
+}
+#topics-study .main-block01 .main-block01-inner ul li .txt-box{
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.8;
+}
+#topics-study .main-block01 .main-block01-inner ul li .txt-box .icon{
+    margin-top: -60px;
+}
+#topics-study .main-block01 .main-block01-inner ul li .txt-box .tit01{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* *****************留学方案 */
+/* 开始 */
+#topics-study .main-block02{
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0 10px;
+}
+#topics-study .main-block02 .tit-box{
+    margin-bottom:40px;
+}
+#topics-study .main-block02 .tit-box .tit-inner{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+}
+#topics-study .main-block02 .tit-box .tit-inner .tit-main{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .main-block02 .tit-box .tit-inner .tit-main span{
+    color: #ed5831;
+    background-color: #fff;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+#topics-study .main-block02 .main-block02-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+#topics-study .main-block02 .main-block02-inner .sub-tit{
+    border-bottom: 1px solid #333;
+    height: 15px;
+    margin-bottom: 45px;
+}
+#topics-study .main-block02 .main-block02-inner .sub-tit span{
+    background-color: #fff;
+    padding-right: 10px;
+    font-size: 22px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+#topics-study .main-block02 .main-block02-inner .sub-tit span img{
+    vertical-align: middle;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box{
+    position: relative;
+    display: inline-block;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box a img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 590px;
+    height: 590px;
+    float: left;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box a .tit {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 510px;
+    color: #666;
+    background: #FFFFFF;
+    padding: 15px 20px;
+    font-size: 14px;
+    text-align: left;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box .tit .arrow {
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box .tit .tit01 {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box .tit .tit02{
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+#topics-study .main-block02 .main-block02-inner .tit-box .tit .buy-btn {
+    background: #ed5831;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    height: 36px;
+    width: 120px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 36px;
+}
+#topics-study .main-block02 .main-block02-inner ul{
+    width: 590px;
+    height: 590px;
+    float: right;
+}
+#topics-study .main-block02 .main-block02-inner ul li{
+    float: left;
+    position: relative;
+}
+#topics-study .main-block02 .main-block02-inner ul .tit00{
+    margin-right: 20px;
+}
+#topics-study .main-block02 .main-block02-inner ul .tit000{
+    margin-bottom: 20px;
+}
+#topics-study .main-block02 .main-block02-inner ul li .tit{
+    width: 285px;
+    height: 30px;
+    background: rgba(0,0,0,.8);
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left:0;
+    bottom: 5px;
+    color: #fff;
+}
+/* 研究生留学结束 */
+
+/* 留学相关服务 */
+/* 开始 */
+#topics-study .main-block02 .main-block02-inner ul.service{
+    width: 1230px;
+    height: 500px;
+    margin: 20px auto;
+    margin-right: -25px;
+}
+#topics-study .main-block02 .main-block02-inner ul.service li {
+    width: 350px;
+    height: 375px;
+    padding: 15px 15px 0 15px;
+    background-color: #fff;
+    float: left;
+    margin:0 30px 0 0;
+    text-align: center;
+
+}
+#topics-study .main-block02 .main-block02-inner ul.service li.service-box{
+    margin: 0 45px;
+}
+#topics-study .main-block02 .main-block02-inner ul.service li p.tit01 {
+    font-size: 22px;
+    margin: 30px 0 25px 0;
+    line-height: 1.0;
+    color: #333;
+}
+#topics-study .main-block02 .main-block02-inner ul.service li p.txt01 {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+#topics-study .main-block02 .main-block02-inner ul.service li div.btn-more {
+    background: #ed5831;
+    margin: 0 auto;
+    height: 38px;
+    width: 200px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 38px;
+}
+/* 留学相关服务 */
+/* 结束 */
+
+/* 留学办理流程 */
+/* 开始 */
+#topics-study .main-block05{
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+#topics-study .main-block05 .tit-box{
+    margin-bottom:40px;
+}
+#topics-study .main-block05 .tit-box .tit-inner{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+    margin-top:50px;
+    margin:0 0 50px 0;
+}
+#topics-study .main-block05 .tit-box .tit-inner .tit-main{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .main-block05 .tit-box .tit-inner .tit-main span{
+    color: #ed5831;
+    background-color: #f5f5f5;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+#topics-study .main-block05 .main-block05-inner{
+    text-align: center;
+}
+/* 结束 */
+/* 资质认证开始 */
+#topics-study .SinceWriting{
+    width: 100%;
+    background-color: #fff;
+}
+#topics-study .SinceWriting .box-txt{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#topics-study .SinceWriting .box-txt .tit-inner{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+#topics-study .SinceWriting .box-txt .tit-inner .tit-main{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .SinceWriting .box-txt .tit-inner .tit-main span{
+    color: #ed5831;
+    background-color: #fff;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+/* 资质认证结束 */
+/* 资质认证轮播图开始 */
+#topics-study .SinceWriting .box-txt .inner-txt{
+    width: 820px;
+    height: 280px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+}
+#topics-study .SinceWriting .box-txt .inner-txt .txt-out{
+    width: 820px;
+    height: 280px;
+    overflow: hidden;
+}
+#topics-study .SinceWriting .box-txt .inner-txt .main-txt{
+    width: 2460px;
+}
+#topics-study .SinceWriting .box-txt .inner-txt .main-txt a {
+    display: inline-block;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+#topics-study .SinceWriting .box-txt .lt{
+    position: absolute;
+    top: 105px;
+    left: -40px;
+    background: url("../images/TourStudy/right.png");
+    width: 40px;
+    height: 70px;
+    z-index: 999;
+    display: none;
+}
+#topics-study .SinceWriting .box-txt .rt{
+    position: absolute;
+    top: 105px;
+    right: -40px;
+    background: url("../images/TourStudy/left.png");
+    width: 40px;
+    height: 70px;
+    display: none;
+}
+/* 资质认证轮播图结束 */
+/* 留学生活视频开始 */
+#topics-study .lifeOfStudyingAbroad{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#topics-study .lifeOfStudyingAbroad .box-tit{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#topics-study .lifeOfStudyingAbroad .box-tit .inner-tit{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+#topics-study .lifeOfStudyingAbroad .box-tit .inner-tit .main-tit{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .lifeOfStudyingAbroad .box-tit .inner-tit .main-tit span{
+    color: #ed5831;
+    background-color: #f5f5f5;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+/* 留学生活视频结束 */
+/* 留学生活视频内容开始 */
+#topics-study .lifeOfStudyingAbroad .box-tit ul.main-block-inner{
+    margin: 40px auto 0;
+    width: 1230px
+    
+}
+#topics-study .lifeOfStudyingAbroad .box-tit .main-block-inner li{
+    float: left;
+    width: 380px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+#topics-study .lifeOfStudyingAbroad .box-tit .main-block-inner li div iframe{
+    width: 380px;
+    height: 285px;
+    background-color: skyblue;
+}
+#topics-study .lifeOfStudyingAbroad .box-tit .main-block-inner li p{
+    font-size: 18px;
+    float: left;
+}
+/* 留学生活视频内容结束 */
+/* 常见Q&A开始 */
+#topics-study .familiar{
+    width: 100%;
+    background-color: #fff;
+}
+#topics-study .familiar .box-tit{
+    width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+}
+#topics-study .familiar .box-tit .inner-tit{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+#topics-study .familiar .box-tit .inner-tit .main-tit{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#topics-study .familiar .box-tit .inner-tit .main-tit span{
+    color: #ed5831;
+    background-color: #fff;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+/* 常见Q&A结束 */
+/* 常见Q&A内容开始 */
+#topics-study .familiar .box-tit .qa-block{
+    text-align: left;
+    border-top: 1px dashed #DDDDDD;
+    padding: 30px 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+#topics-study .familiar .box-tit .qa-blockqa{
+    border-top: 1px dashed #fff;
+}
+#topics-study .familiar .box-tit .qa-block p.question {
+    color: #000000;
+    font-size: 16px;
+}
+#topics-study .familiar .box-tit .qa-block p{
+    text-indent: -1.7em;
+    padding-left: 1.7em;
+    font-size: 15px;
+    color: #666;
+}
+#topics-study .familiar .box-tit .qa-block p span{
+    font-size: 15px;
+    color: #ed5831;
+}
+/* 常见Q&A内容结束 */
+/* 订阅开始 */
+#topics-study .inner-wrap{
+    width: 100%;
+    height: 100px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    line-height: 100px;
+}
+#topics-study .inner-wrap .email-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+#topics-study .inner-wrap .email-box .email-box-inner{
+    float: left;
+    font-size: 0;
+}
+#topics-study .inner-wrap .email-box .email-box-inner label{
+    font-size: 16px;
+}
+#topics-study .inner-wrap .email-box .email-box-inner .email-input{
+    width: 450px;
+    height: 45px;
+}
+#topics-study .inner-wrap .email-box .email-box-inner .email-btn{
+    width: 60px;
+    height: 50px;
+    color: #FFF;
+    background-color: #000;
+}
+#topics-study .inner-wrap .email-box .right-box{
+    float: right;
+    text-align: center;
+}
+#topics-study .inner-wrap .email-box .right-box a{
+    margin-left: 20px;
+}
+/* 订阅结束 */
+
+
+
+
+/* 第二块 */
+/* 旅游 */
+/* 开始 */
+/* 轮播图开始 */
+#travel{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#travel .top-block01{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+#travel .top-block01 .Shuffling-box{
+    width: 1200px;
+    height: 390px;
+    margin: 0 auto 50px;
+    position: relative;
+    overflow: hidden;
+}
+#travel .top-block01 .Shuffling-box .Picture-box{
+    height: 390px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#travel .top-block01 .Shuffling-box .Picture-box a{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+#travel .top-block01 .Shuffling-box .Shuffling-button .left{
+    position: absolute;
+    top: 158px;
+    left: 20px;
+    background: url("../images/TourStudy/right.png");
+    width: 40px;
+    height: 70px;
+    display: none;
+}
+#travel .top-block01 .Shuffling-box .Shuffling-button .right{
+    position: absolute;
+    top: 158px;
+    right: 20px;
+    background: url("../images/TourStudy/left.png");
+    width: 40px;
+    height: 70px;
+    display: none;
+}
+#travel .top-block01 .topics-slide .dot{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -600px;
+    padding: 5px 0px;
+    border-radius: 13px;
+    width: 1200px;
+    text-align: center;
+    height: 8px;
+    line-height: 8px;
+    z-index: 100;
+}
+#travel .top-block01 .topics-slide .dot li{
+    float: none;
+    display: inline-block;
+    zoom: 1;
+    height: 8px;
+    margin: 0 5px;
+    height: 8px;
+    width: 8px;
+    text-align: center;
+    color: #999;
+    font-size: 0px;
+    background-color: #999;
+    border-radius: 100%;
+}
+/* 轮播图结束 */
+/* 西集网.旅游频道全新开发开始 */
+#travel .top-block01 .tit-box{
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-bottom:20px; */
+    text-align: center;
+}
+#travel .top-block01 .tit-box .tit-inner{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+#travel .top-block01 .tit-box .tit-inner .tit-main{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#travel .top-block01 .tit-box .tit-inner .tit-main span{
+    color: #ed5831;
+    background-color: #fff;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+/* 西集网.旅游频道全新开发结束 */
+/*  */
+#travel .top-block01 .main-block01-inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+#travel .top-block01 .main-block01-inner .text-box {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-bottom: 80px;
+    font-size: 14px;
+}
+#travel .top-block01 .main-block01-inner .text-box p {
+    text-align: center;
+    line-height: 2.0;
+    padding-top: 25px;
+    font-size: 16px;
+}
+#travel .top-block01 .main-block01-inner ul{
+    width: 1230px;
+    margin-right: -30px;
+}
+#travel .top-block01 .main-block01-inner ul li{
+    width: 380px;
+    margin: 0 30px 0 0;
+    text-align: center;
+    float: left;
+}
+#travel .top-block01 .main-block01-inner ul li .txt-box{
+    background-color: #f5f5f5;
+    padding: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.8;
+}
+#travel .top-block01 .main-block01-inner ul li .txt-box .icon{
+    margin-top: -60px;
+}
+#travel .top-block01 .main-block01-inner ul li .txt-box .tit01{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* 结束 */
+
+/* 旅游线路图开放 */
+/* 开始 */
+#travel .top-block-02{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+/* 旅游线路推荐 */
+/* 开始 */
+#travel .top-block02 .tit-box{
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-bottom:20px; */
+    text-align: center;
+    margin-top: 50px;
+}
+#travel .top-block02 .tit-box .tit-inner{
+    border: 1px solid #ed5831;
+    height: 36px;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+#travel .top-block02 .tit-box .tit-inner .tit-main{
+    margin-top: -18px;
+    line-height: 3.0;
+}
+#travel .top-block02 .tit-box .tit-inner .tit-main span{
+    color: #ed5831;
+    background-color: #f5f5f5;
+    font-size: 30px;
+    line-height: 1.0;
+    padding: 0 10px;
+}
+/* 旅游线路推荐结束 */
+/* 新西兰 */
+/* 开始 */
+#travel .top-block02 .tit-box .sub-tit{
+    border-bottom: 1px solid #333;
+    height: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#travel .top-block02 .tit-box .sub-tit span{
+    background-color: #f5f5f5;
+    padding-right: 10px;
+    font-size: 22px;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+}
+#travel .top-block02 .tit-box .sub-tit span img{
+    vertical-align: middle;
+}
+/* 新西兰结束 */
+/* 新西兰img */
+/* 开始 */
+#travel .top-block02 .tit-box ul{
+    /* margin-right: 20px; */
+}
+#travel .top-block02 .tit-box ul li{
+    width: 590px;
+    height: 360px;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+}
+#travel .top-block02 .tit-box ul.tit-txt .tit02{
+    margin-right: 20px;
+}
+#travel .top-block02 .tit-box ul.tit-txt li img{
+
+    position: relative;
+}
+#travel .top-block02 .tit-box ul.tit-txt li .tit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    background-color: rgba(0,0,0,.8);
+}
+#travel .top-block02 .tit-box ul.tit-txt li .txt{
+    position: absolute;
+    bottom: 0;
+    left: -590px;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: #FFF;
+    background-color: rgba(0,0,0,.8);
+    /* overflow: hidden; */
+    /* display: none; */
+}
+.tit-txt li{
+    overflow: hidden;
+}
+#travel .top-block02 .tit-box ul.tit-txt li .tit01{
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+}
+#travel .top-block02 .tit-box ul.tit-txt li .txt01{
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 0 80px;
+    text-align: center;
+}
+#travel .top-block02 .tit-box ul.tit-txt li .btn01{
+    border: 1px solid #fff;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* 新西兰img结束 */
+/* 日本img */
+/* 开始 */
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box{
+    float: left;
+    width: 590px;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box a img{
+    position: relative;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box .sit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.8);
+    color: #FFF;
+    line-height: 50px;
+    font-size: 14px;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box .conceal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -590px;
+    background-color: rgba(0,0,0,.8);
+    color: #FFF;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box .ccl{
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box .cnel{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 50px;
+    line-height: 2.0;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt01-box .btn01{
+    border: 1px solid #fff;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02{
+    position: relative;
+    width: 285px;
+    height: 285px;
+    float: right;
+    overflow: hidden;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt03{
+    margin-left: 20px;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02 a img{
+    position: relative;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02 a .sit01{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    background-color: rgba(0,0,0,.8);
+    color: #FFF;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02 .concealA{
+    position: absolute;
+    top: 0;
+    left: -285px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    color: #FFF;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02 .ccl01{
+    font-size: 15px;
+    margin-top: 35px;
+    padding: 0 15px;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02 .cnel01{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+#travel .top-block02 .tit-box ul.tit-txt01 li.tit-txt02 .btn02{
+    border: 1px solid #fff;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-top: 20px;
+}
+/* 日本img结束 */
+
+/* 订阅 */
+/* 开始 */
+#travel .top-block02 .inner-wrap{
+    width: 100%;
+    margin: 50px 0;
+}
+#travel .top-block02 .inner-wrap .email-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+#travel .top-block02 .inner-wrap .email-box .email-box-inner{
+    float: left;
+    font-size: 0;
+}
+#travel .top-block02 .inner-wrap .email-box .email-box-inner label{
+    font-size: 16px;
+}
+#travel .top-block02 .inner-wrap .email-box .email-box-inner .email-input{
+    width: 450px;
+    height: 45px;
+}
+#travel .top-block02 .inner-wrap .email-box .email-box-inner .email-btn{
+    width: 60px;
+    height: 50px;
+    color: #FFF;
+    background-color: #000;
+}
+#travel .top-block02 .inner-wrap .email-box .right-box{
+    float: right;
+    text-align: center;
+}
+#travel .top-block02 .inner-wrap .email-box .right-box a{
+    margin-left: 20px;
+}
+/* 订阅结束 */
+/* 旅游线路图开放结束 */

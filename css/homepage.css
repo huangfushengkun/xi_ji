@@ -1,0 +1,161 @@
+/* 最大的容器 */
+body.container{
+    width: 1903px;
+}
+/* 版心 */
+.container .type-area{
+    width: 1200px;
+    height: 4556px;
+    margin: 0 auto;
+}
+/* 标题 */
+.type-area .heading-block{
+    height: 72px;
+}
+.heading-block h2{
+    color: #000;
+    font-size: 28px;
+    display: inline;
+    line-height: 72px;
+}
+.heading-block span{
+    display: inline;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+/* 标题结束 */
+
+/* 商品 */
+.type-area .children{
+    height: 544px;
+    margin-bottom: 20px;
+}
+/* 开头 */
+.children .goods-innerbox{
+    width: 480px;
+    height: 272px;
+    background: url(../images/homepage/1.png);
+}
+.goods-innerbox .dexter{
+    width: 240px;
+    height: 272px;
+    float:right;
+}
+.dexter .goodcomment-tit{
+    width: 240px;
+    height: 48px;
+    margin: 15px 0 5px 0;
+    font-size: 32px;
+}
+.dexter .look-all{
+    font-size: 14px;
+    line-height: 14px;
+    color: rgb(102, 102, 102);
+}
+.goods-innerbox .hot-box{
+    width: 240px;
+    height: 160px;
+    margin-top: 20px;
+}
+.hot-box div a{
+    width:108px;
+    height: 30px;
+    margin: 0 10px 10px 0;
+    background-color: rgb(255, 255, 255);
+    float:left;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.hot-box div a p{
+    width: 100px;
+    height: 28px;
+    padding: 0 5px;
+    line-height: 28px;
+    color: rgb(102, 102, 102);
+    transition: all 0.5s;
+}
+.hot-box div a:hover{
+    background-color:rgb(102, 102, 102);
+}
+.hot-box div a:hover p{
+    color:#fff;
+}
+/* 结束 */
+.modules{
+    width: 208px;
+    height: 255px;
+    padding:15px 15px 0 15px;
+    border: 1px solid rgb(228, 228, 228);
+}
+.modules>img{
+    width: 159px;
+    height: 159px;
+    display: block;
+    margin: 0 auto;
+}
+.modules a{
+    width: 209px;
+    height: 36px;
+    color: rgb(51, 51, 51);
+}
+.modules a img{
+    width: 25px;
+    height: 16px;
+    vertical-align: middle;
+}
+.modules .price-box{
+    width: 209px;
+    height: 48px;
+}
+.price-box>span{
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    margin-right: 2px;
+    font-weight: bold;
+}
+.children>div{
+    float: left;
+}
+.children .recommended{
+    width: 478px;
+    height: 271px;  
+    border: 1px solid rgb(228, 228, 228);
+}
+.recommended .brand-tit{
+    background:url(../images/homepage/4.png)left center repeat-x;
+    width: 275px;
+    text-align: center;
+    height: 20px;
+    margin: 40px 102px;
+    line-height: 20px;
+    display:block;
+}
+.brand-tit span{
+    font-size: 20px;
+    padding: 0 10px;
+    background-color: rgb(255, 255, 255);
+}
+.recommended ul{
+    width: 423px;
+    height: 140px;
+    margin: 0 28px; 
+    display: block;
+} 
+.recommended ul li{
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+}
+.recommended ul li img{
+    width: 100px;
+    height: 50px;
+}
+.children>img{
+    width: 100%;
+    height: 100%;
+}
+

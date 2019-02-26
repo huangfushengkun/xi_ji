@@ -1,0 +1,247 @@
+
+.container{
+    width: 1903px;
+    height: 5351px;
+    background:rgb(0,0,0);
+}
+.figure {
+    width: 1903px;
+}
+.btm-topic{
+    width: 1861px;
+    height: 1311px;
+}
+.hai{
+    color: #ED5831 !important;
+}
+.main{
+    width: 1200px;
+    height: 1310px;
+    /* background: red; */
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.main ul li{
+    float: left;
+}
+._left{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+._left0{
+    margin-right: 20px;
+}
+.leftThe_left_first{
+    width: 590px;
+    height: 410px;
+}
+.left1{
+    background:url(../images/sea-shopping/2.png);
+}
+.right1{
+    background:url(../images/sea-shopping/3.png);
+}
+.left2{
+    background:url(../images/sea-shopping/4.png);
+}
+.right2{
+    background:url(../images/sea-shopping/5.png);
+}
+.left3{
+    background:url(../images/sea-shopping/6.png);
+}
+.right3{
+    background:url(../images/sea-shopping/7.png);
+}
+.leftThe_left_first_box a{
+    display: inline-block;
+}
+.leftThe_left_first_box .a_doll{
+    width: 562px;
+    height:222px;
+    /* background: red; */
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.leftThe_left_first_box .the_eva ,.three_eva ,.four_eva {
+    width: 130px;
+    height: 130px;
+    /* background: red; */
+    margin: 0 5px;
+    margin-top: 27px;
+    margin-left: 15px;
+}
+.leftThe_left_first_box .view_more{
+    width: 100px;
+    height: 110px;
+    /* background: red; */
+    margin: 0 10px 10px 13px;
+}
+/* 特卖热卖 */
+.xj-content-product-wrap{
+    width: 1861px;
+    height: 3570px;
+    padding: 20px 0;
+}
+.header-block{
+    width: 1200px;
+    height: 80px;
+    background:url(../images/sea-shopping/8.png) 50% 50% no-repeat;
+    text-align: center;
+    display: block;
+    font-size: 75%;
+    margin: 0 auto;
+}
+.header-block span{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    padding: 0 50px;
+    font-size: 25px;
+    line-height: 80px;
+    text-align: center;
+}
+.goods_list{
+    width: 1240px;
+    height: 3440px;
+    margin: 0 auto;
+}
+.content_outer{
+    float: left;
+    width: 285px;
+    height: 410px;
+    position: relative;
+    margin: 20px 0 0 20px;
+}
+.content_outer:hover .popup_buy{
+    display: block;
+}
+.content_inner{
+    padding: 20px;
+    width: 245px;
+    height: 370px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.axc{
+    z-index:999; 
+}
+.img_box{
+    width: 245px;
+    height: 245px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+}
+.img_box_1{
+    width: 245px;
+    height: 245px;
+}
+.img_box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 84px;
+    height: 36px;
+    background: url(../images/sea-shopping/10.png) 0 0 no-repeat;
+}
+.xj_icon_video{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -20px;
+    background: url(../images/sea-shopping/11.png) center center no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.store_num{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.price_xj{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.price_xj span{
+    font-weight: normal;
+    font-size: 14px; 
+}
+.price-market{
+    color: #999;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-bottom: 10px;
+}
+.Made_by_hand{
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+    height: 39px;
+}
+.tag_box{
+    height: 26px;
+    margin-top: 5px;
+}
+.not_self{
+    background-color: #FFF;
+    color: #9d9d9d;
+    border: 1px solid #9d9d9d;
+}
+.tax_allowance{
+    color: #fff;
+    background-color: #ED5831;
+    border: 1px solid #ED5831;
+    font-size: 12px;
+    line-height: 18px;
+    height: 16px;
+    padding: 0 2px;
+    margin: 0 3px 3px 2px;
+}
+.location .popup_buy_view{
+    border: 1px solid #ED5831;
+    border-radius: 3px;
+    color: #ED5831;
+    height: 32px;
+    line-height: 32px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    width: 243px;
+    display: inline-block;
+    margin: 8px 0 0 0!important;
+}
+.popup_buy{
+    width:287px;
+    height:67px;
+    position: relative;
+    background:#fff;
+    position: absolute;
+    bottom:-67px;
+    text-align: center;
+    display: none;
+    z-index:999;
+}
+
+
+
+
+
+
+
+
+
+

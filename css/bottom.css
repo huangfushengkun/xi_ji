@@ -1,0 +1,201 @@
+/* emial盒子 开始 */
+.content .email-box {
+    width: 100%;
+}
+
+.content .email-box .email-box-inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.content .email-box-inner label {
+    cursor: default;
+    color: #333;
+    font-size: 14px;
+}
+
+.content .email-box .email-box-inner .email-input {
+    width: 420px;
+    height: 43px;
+    padding: 0 5px;
+    line-height: 43px;
+    border: 1px solid #D3D3D3;
+    color: #666;
+    font-size: 14px;
+    line-height: 43px;
+    margin-left: 8px;
+    outline: 0 none;
+}
+
+.content .email-box .email-box-inner .email-btn {
+    background-color: #212121;
+    min-width: 60px;
+    height: 45px;
+    padding: 0px 5px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    border: none;
+}
+
+.content .email-box .email-box-inner .right-box {
+    position: absolute;
+    right: 0px;
+    top: 47px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.content .email-box .email-box-inner .right-box a {
+    margin-right: 15px;
+}
+
+.content .email-box .email-box-inner .right-box a:hover {
+    text-decoration: none;
+}
+
+.content .email-box .email-box-inner .right-box a img {
+    width: 32px;
+    height: 32px;
+    border: 0 none;
+    opacity: 0.9;
+}
+
+.content .email-box .email-box-inner .right-box a img:hover {
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+/* emial盒子 结束 */
+/* 底部 开始 */
+.foot {
+    width: 100%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    background-color: #ebebeb;
+}
+.foot .info-footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 45px 0;
+    border-bottom: 1px solid #ddd;
+}
+.foot .info-footer .left-box {
+    width: 650px;
+    float: left;
+}
+.foot .info-footer .left-box .left-box-list {
+    float: left;
+    margin-right: 10px;
+}
+.foot .info-footer .left-box .left-box-lists {
+    margin-right: 0px;
+}
+.foot .info-footer .left-box .left-box-list li {
+    width: 110px;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.foot .info-footer .left-box .left-box-list li a {
+    font-size: 12px;
+    color: #666;
+    transition: all 0.3s;
+}
+.foot .info-footer .left-box .left-box-list li:hover a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #999;
+}
+.foot .info-footer .left-box .left-box-list .left-box-list-title {
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+.foot .info-footer .left-box .left-box-list .left-box-list-title:hover a{
+    text-decoration: none;
+    margin-left: 0px;
+    color: #000;
+}
+.foot .info-footer .left-box .left-box-list .left-box-list-title a {
+    color: #000;
+    font-size: 14px;
+}
+.foot .info-footer .right-box {
+    width: 540px;
+    float: right;
+    border-left: 1px solid #DDD;
+}
+.foot .info-footer .right-box .center-box {
+    height: 162px;
+    width: 230px;
+    padding: 0 10px 0px 40px;
+    float: left;
+}
+.foot .info-footer .right-box .center-box li p {
+    line-height: 22px;
+}
+.foot .info-footer .right-box .center-box li a {
+    font-size: 12px;
+    color: #666;
+}
+.foot .info-footer .right-box .center-box li a:hover {
+    text-decoration: none;
+}
+.foot .info-footer .right-box .center-box li a img {
+    width: 119px;
+    height: 18px;
+    border: 0 none;
+    vertical-align: top;
+}
+.foot .info-footer .right-box .center-box .center-box-title p {
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+.foot .info-footer .right-box .center-box .center-box-title a {
+    font-size: 14px;
+    color: #000;
+}
+.foot .info-footer .right-box .center-box-ch {
+    padding-left: 0;
+}
+.foot .info-footer .right-box .center-box .center-box-work i {
+    font-style: normal;
+    color: #f00;
+}
+.foot .page-footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+.foot .page-footer .theme-footer {
+    padding-top: 10px;
+    text-align: center;
+    line-height: 22px;
+    margin: 10px 0;
+}
+.foot .page-footer .theme-footer p {
+    text-align: center;
+    font-size: 12px;
+}
+.foot .page-footer .theme-footer .foot-img {
+    margin-top: 5px;
+}
+.foot .page-footer .theme-footer .foot-img a {
+    width: 108px;
+    height: 39px;
+}
+.foot .page-footer .theme-footer .foot-img a:hover {
+    text-decoration: none;
+}
+.foot .page-footer .theme-footer .foot-img a img {
+    border: 0 none;
+    height: 39px;
+    opacity: 0.9;
+}
+.foot .page-footer .theme-footer .foot-img a img:hover {
+    transform: scale(0.9);
+    opacity: 1;
+}
+/* 底部 结束 */
